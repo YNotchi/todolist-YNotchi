@@ -18,7 +18,7 @@ const addTask = () => {
   }
 }
 
-const compTask = (taskCon) => {
+const compTask = (taskCon: string) => {
     tasks.value = tasks.value.map((task) => {
       if(task.con == taskCon){
         task.ena = false
